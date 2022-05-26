@@ -1,5 +1,27 @@
+@import url('https://fonts.google.com/specimen/Bai+Jamjuree');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+ .btn-mac,.btn-ios{
+     @apply  rounded-full w-full sm:w-max py-1 sm:px-6 justify-center align-middle text-white hover:cursor-pointer hover:bg-opacity-80;
+ }
+ .btn-mac{
+     @apply bg-primary-light-blue;
+    }
+    .btn-ios{
+        @apply bg-primary-strong-cyan;
+    }
+    p{
+        @apply text-neutral-grayish-blue sm:m-auto;
+    }
+    .svg-container{
+        @apply grid justify-center my-8;
+    }
+    footer li:hover{
+        @apply text-primary-strong-cyan cursor-pointer;
+    }
+   
 
 

@@ -1,3 +1,5 @@
+@import url('https://fonts.google.com/specimen/Bai+Jamjuree');
+
 /*
 ! tailwindcss v3.0.24 | MIT License | https://tailwindcss.com
 */
@@ -423,7 +425,7 @@ Ensure the default browser behavior of the `hidden` attribute.
   display: none;
 }
 
-*, ::before, ::after {
+*, ::before, ::after{
   --tw-translate-x: 0;
   --tw-translate-y: 0;
   --tw-rotate: 0;
@@ -468,92 +470,392 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-backdrop-sepia:  ;
 }
 
-.mx-auto {
-  margin-left: auto;
-  margin-right: auto;
+.my-4{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
-.flex {
+.my-20{
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.my-6{
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.mb-4{
+  margin-bottom: 1rem;
+}
+
+.mb-6{
+  margin-bottom: 1.5rem;
+}
+
+.mb-20{
+  margin-bottom: 5rem;
+}
+
+.mb-8{
+  margin-bottom: 2rem;
+}
+
+.mb-5{
+  margin-bottom: 1.25rem;
+}
+
+.mb-24{
+  margin-bottom: 6rem;
+}
+
+.flex{
   display: flex;
 }
 
-.h-12 {
-  height: 3rem;
+.grid{
+  display: grid;
 }
 
-.w-12 {
-  width: 3rem;
+.w-full{
+  width: 100%;
 }
 
-.max-w-sm {
-  max-width: 24rem;
+.scale-50{
+  --tw-scale-x: .5;
+  --tw-scale-y: .5;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
-.shrink-0 {
-  flex-shrink: 0;
+.justify-center{
+  justify-content: center;
 }
 
-.items-center {
-  align-items: center;
+.justify-between{
+  justify-content: space-between;
 }
 
-.space-x-4 > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-x-reverse: 0;
-  margin-right: calc(1rem * var(--tw-space-x-reverse));
-  margin-left: calc(1rem * calc(1 - var(--tw-space-x-reverse)));
+.gap-4{
+  gap: 1rem;
 }
 
-.rounded-xl {
-  border-radius: 0.75rem;
+.gap-10{
+  gap: 2.5rem;
 }
 
-.bg-white {
+.gap-6{
+  gap: 1.5rem;
+}
+
+.bg-neutral-grayish-blue{
   --tw-bg-opacity: 1;
-  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+  background-color: hsl(201 11% 66% / var(--tw-bg-opacity));
 }
 
-.bg-red-600 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(220 38 38 / var(--tw-bg-opacity));
+.px-12{
+  padding-left: 3rem;
+  padding-right: 3rem;
 }
 
-.bg-blue-600 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(37 99 235 / var(--tw-bg-opacity));
+.px-80{
+  padding-left: 20rem;
+  padding-right: 20rem;
 }
 
-.p-6 {
-  padding: 1.5rem;
+.px-7{
+  padding-left: 1.75rem;
+  padding-right: 1.75rem;
 }
 
-.text-xl {
-  font-size: 1.25rem;
+.px-72{
+  padding-left: 18rem;
+  padding-right: 18rem;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.text-lg{
+  font-size: 1.125rem;
   line-height: 1.75rem;
 }
 
-.font-medium {
-  font-weight: 500;
+.text-3xl{
+  font-size: 1.875rem;
+  line-height: 2.25rem;
 }
 
-.text-black {
+.text-2xl{
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.text-xs{
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+
+.font-normal{
+  font-weight: 400;
+}
+
+.font-semibold{
+  font-weight: 600;
+}
+
+.text-neutral-grayish-blue{
+  --tw-text-opacity: 1;
+  color: hsl(201 11% 66% / var(--tw-text-opacity));
+}
+
+.text-black{
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 
-.text-slate-500 {
+.text-primary-strong-cyan{
   --tw-text-opacity: 1;
-  color: rgb(100 116 139 / var(--tw-text-opacity));
+  color: hsl(171 66% 44% / var(--tw-text-opacity));
 }
 
-.text-red-400 {
+.btn-mac, .btn-ios{
+  width: 100%;
+  justify-content: center;
+  border-radius: 9999px;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  vertical-align: middle;
   --tw-text-opacity: 1;
-  color: rgb(248 113 113 / var(--tw-text-opacity));
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-.shadow-lg {
-  --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
-  --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);
-  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+.btn-mac:hover, .btn-ios:hover{
+  cursor: pointer;
+  --tw-bg-opacity: 0.8;
 }
+
+@media (min-width: 640px){
+  .btn-mac, .btn-ios{
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+}
+
+.btn-mac{
+  --tw-bg-opacity: 1;
+  background-color: hsl(233 100% 69% / var(--tw-bg-opacity));
+}
+
+.btn-ios{
+  --tw-bg-opacity: 1;
+  background-color: hsl(171 66% 44% / var(--tw-bg-opacity));
+}
+
+p{
+  --tw-text-opacity: 1;
+  color: hsl(201 11% 66% / var(--tw-text-opacity));
+}
+
+@media (min-width: 640px){
+  p{
+    margin: auto;
+  }
+}
+
+.svg-container{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  display: grid;
+  justify-content: center;
+}
+
+footer li:hover{
+  cursor: pointer;
+  --tw-text-opacity: 1;
+  color: hsl(171 66% 44% / var(--tw-text-opacity));
+}
+
+@media (min-width: 640px){
+  .sm\:absolute{
+    position: absolute;
+  }
+
+  .sm\:relative{
+    position: relative;
+  }
+
+  .sm\:left-0{
+    left: 0px;
+  }
+
+  .sm\:m-auto{
+    margin: auto;
+  }
+
+  .sm\:mb-6{
+    margin-bottom: 1.5rem;
+  }
+
+  .sm\:mb-10{
+    margin-bottom: 2.5rem;
+  }
+
+  .sm\:mb-8{
+    margin-bottom: 2rem;
+  }
+
+  .sm\:mb-12{
+    margin-bottom: 3rem;
+  }
+
+  .sm\:mr-20{
+    margin-right: 5rem;
+  }
+
+  .sm\:ml-40{
+    margin-left: 10rem;
+  }
+
+  .sm\:ml-0{
+    margin-left: 0px;
+  }
+
+  .sm\:mr-60{
+    margin-right: 15rem;
+  }
+
+  .sm\:mr-7{
+    margin-right: 1.75rem;
+  }
+
+  .sm\:mr-72{
+    margin-right: 18rem;
+  }
+
+  .sm\:mr-8{
+    margin-right: 2rem;
+  }
+
+  .sm\:mr-80{
+    margin-right: 20rem;
+  }
+
+  .sm\:mr-auto{
+    margin-right: auto;
+  }
+
+  .sm\:mr-9{
+    margin-right: 2.25rem;
+  }
+
+  .sm\:mr-96{
+    margin-right: 24rem;
+  }
+
+  .sm\:flex{
+    display: flex;
+  }
+
+  .sm\:w-2\/5{
+    width: 40%;
+  }
+
+  .sm\:justify-center{
+    justify-content: center;
+  }
+
+  .sm\:justify-between{
+    justify-content: space-between;
+  }
+
+  .sm\:justify-around{
+    justify-content: space-around;
+  }
+
+  .sm\:gap-4{
+    gap: 1rem;
+  }
+
+  .sm\:gap-5{
+    gap: 1.25rem;
+  }
+
+  .sm\:gap-3{
+    gap: 0.75rem;
+  }
+
+  .sm\:gap-32{
+    gap: 8rem;
+  }
+
+  .sm\:py-10{
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+  }
+
+  .sm\:px-24{
+    padding-left: 6rem;
+    padding-right: 6rem;
+  }
+
+  .sm\:px-44{
+    padding-left: 11rem;
+    padding-right: 11rem;
+  }
+
+  .sm\:px-96{
+    padding-left: 24rem;
+    padding-right: 24rem;
+  }
+
+  .sm\:px-9{
+    padding-left: 2.25rem;
+    padding-right: 2.25rem;
+  }
+
+  .sm\:px-80{
+    padding-left: 20rem;
+    padding-right: 20rem;
+  }
+
+  .sm\:px-8{
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .sm\:px-72{
+    padding-left: 18rem;
+    padding-right: 18rem;
+  }
+
+  .sm\:px-7{
+    padding-left: 1.75rem;
+    padding-right: 1.75rem;
+  }
+
+  .sm\:px-60{
+    padding-left: 15rem;
+    padding-right: 15rem;
+  }
+
+  .sm\:px-0{
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .sm\:px-40{
+    padding-left: 10rem;
+    padding-right: 10rem;
+  }
+
+  .sm\:text-left{
+    text-align: left;
+  }
+}
+   
 
 
