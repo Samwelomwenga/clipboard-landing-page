@@ -22,6 +22,9 @@
     footer li:hover{
         @apply text-primary-strong-cyan cursor-pointer;
     }
-   
+    .soccial-icon:hover{
+        @apply fill-primary-strong-cyan;
+
+    }
 
 
