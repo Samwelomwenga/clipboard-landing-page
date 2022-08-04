@@ -1631,6 +1631,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-color: rgb(255 0 0 / var(--tw-bg-opacity));
 }
 
+.bg-\[url\(\'images\/bg-header-mobile\.png\'\)\]{
+  background-image: url('images/bg-header-mobile.png');
+}
+
 .bg-\[url\(\'\.\.\.\'\)\]{
   background-image: url('...');
 }
@@ -1645,6 +1649,18 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .bg-\[url\(\"\.\.\.\"\)\2c url\(\"\.\.\.\"\)\]{
   background-image: url("..."),url("...");
+}
+
+.bg-\[url\(\'\/images\/bg-header-mobile\.png\'\)\]{
+  background-image: url('/images/bg-header-mobile.png');
+}
+
+.bg-\[url\(\'\.\/images\/bg-header-mobile\.png\'\)\]{
+  background-image: url('./images/bg-header-mobile.png');
+}
+
+.bg-\[url\(\'\.\.\/images\/bg-header-mobile\.png\'\)\]{
+  background-image: url('../images/bg-header-mobile.png');
 }
 
 .decoration-slice{
@@ -2468,6 +2484,34 @@ footer li:hover{
 
   .sm\:gap-4{
     gap: 1rem;
+  }
+
+  .sm\:bg-\[url\(\)\]{
+    background-image: url();
+  }
+
+  .sm\:bg-\[url\(\'\'\)\]{
+    background-image: url('');
+  }
+
+  .sm\:bg-\[url\(\'images\\bg-header-desktop\.png\'\)\]{
+    background-image: url('images\bg-header-desktop.png');
+  }
+
+  .sm\:bg-\[url\(\'images\/bg-header-desktop\.png\'\)\]{
+    background-image: url('images/bg-header-desktop.png');
+  }
+
+  .sm\:bg-\[url\(\'\/images\/bg-header-desktop\.png\'\)\]{
+    background-image: url('/images/bg-header-desktop.png');
+  }
+
+  .sm\:bg-\[url\(\'\.\/images\/bg-header-desktop\.png\'\)\]{
+    background-image: url('./images/bg-header-desktop.png');
+  }
+
+  .sm\:bg-\[url\(\'\.\.\/images\/bg-header-desktop\.png\'\)\]{
+    background-image: url('../images/bg-header-desktop.png');
   }
 
   .sm\:px-80{
